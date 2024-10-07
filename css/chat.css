@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column; /* Alinhamento vertical */
+}
+
+.chat-container {
+    background-color: #1E1E1E; /* Fundo do chat */
+    border-radius: 10px;
+    width: 400px; /* Tamanho do chat */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    height: 500px; /* Altura do chat */
+    overflow-y: auto; /* Adiciona scroll se necessário */
+}
+
+h1, h2 {
+    text-align: center; /* Centraliza os títulos */
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px; /* Tamanho do título principal */
+}
+
+h2 {
+    font-size: 18px; /* Tamanho do subtítulo */
+    margin: 10px 0; /* Espaçamento */
+}
+
+p {
+    text-align: center; /* Centraliza o parágrafo */
+    margin-bottom: 10px; /* Espaçamento abaixo */
+}
+
+.message {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 75%;
+    word-wrap: break-word; /* Quebra de linha em palavras longas */
+}
+
+.mavi-message {
+    background-color: #007BFF; /* Azul para mensagens da assistente Mavi */
+    align-self: flex-start; /* Alinhamento à esquerda */
+    color: white;
+    margin-left: 0; /* Margem esquerda zerada para manter alinhamento */
+    margin-right: auto; /* Margem direita automática para alinhar à esquerda */
+}
+
+.user-message {
+    background-color: #6c757d; /* Cinza para mensagens do usuário */
+    align-self: flex-end; /* Alinhamento à direita */
+    color: white;
+    margin-left: auto; /* Margem esquerda automática para alinhar à direita */
+    margin-right: 0; /* Margem direita zerada para manter alinhamento */
+}
+
+.button-container {
+    margin-top: 10px; /* Espaçamento acima dos botões de resposta */
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #007BFF; /* Cor azul dos botões */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48%; /* Botões com largura proporcional */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+#input {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espaçamento inferior */
+}

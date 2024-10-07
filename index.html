@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Mercury - Página Principal</title>
+    <style>
+        .hero {
+            background-image: url('img/17246606555005254.jpg'); /* Substitua pelo nome da sua imagem */
+            background-size: cover; /* Cobre toda a área da seção */
+            background-position: center; /* Centraliza a imagem */
+            height: 100vh; /* Altura da seção igual à altura da janela */
+            display: flex; /* Permite usar flexbox para centralizar o texto */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            position: relative; /* Permite que os filhos sejam posicionados em relação a ela */
+            color: #ffffff; /* Cor do texto */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        .hero-text {
+            position: relative; /* Para permitir a sobreposição de texto */
+            z-index: 1; /* Coloca o texto acima da imagem */
+            padding: 20px; /* Adiciona um pouco de espaçamento */
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o texto */
+            border-radius: 8px; /* Cantos arredondados */
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Mercury</div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="explicacao.html">Explicação da Ideia</a></li>
+                <li><a href="nossodiferencial.html">Nosso Diferencial</a></li>
+                <li><a href="elementos.html">Elementos da Marca</a></li>
+                <li><a href="chat.html">Chat Online</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bem-vindo à Mercury!</h1>
+            <p>Renove seu desempenho com produtos de alta qualidade e descontos sustentáveis.</p>
+            <a href="#" class="cta-button">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="info">
+            <h2>Explicação da Ideia</h2>
+            <p>
+                Estamos desenvolvendo uma marca inovadora dedicada à venda e troca de artigos esportivos de diversas marcas. Nossa proposta surge da crescente demanda por soluções que unam praticidade, sustentabilidade e economia no setor de esportes.
+                Mercury oferece uma plataforma completa que combina a compra de novos produtos com a troca de artigos usados, proporcionando uma experiência rápida, segura e eficiente.
+            </p>
+            <a href="explicacao.html" class="btn-leia-mais">Leia Mais</a>
+        </div>
+
+        <div class="info">
+            <h2>Nosso Diferencial</h2>
+            <p>
+                Nosso diferencial é a união entre sustentabilidade e acessibilidade. Permitimos que equipamentos esportivos usados ganhem uma nova vida, oferecendo vale-desconto ou cashback ao cliente, que pode usá-los em compras futuras.
+                Além disso, com o uso do modelo de dropshipping, podemos garantir uma ampla variedade de produtos a preços competitivos, sem a necessidade de manter um estoque físico.
+            </p>
+            <a href="nossodiferencial.html" class="btn-leia-mais">Leia Mais</a>
+        </div>
+
+        <div class="info">
+            <h2>Elementos da Marca</h2>
+            <p>
+                O nome Mercury reflete nossa agilidade e eficiência, inspirado no deus Mercúrio, mensageiro dos deuses. Escolhemos as cores azul e cinza para representar confiança, modernidade e equilíbrio. Nosso slogan "Renove Seu Desempenho" reforça a missão da marca de promover a sustentabilidade e a melhoria contínua.
+            </p>
+            <a href="elementos.html" class="btn-leia-mais">Leia Mais</a>
+        </div>
+
+        <div class="info">
+            <h2>Chat Online</h2>
+            <p>
+               Fale com nossa assistente pessoal MAVI
+            </p>
+            <a href="chat.html" class="btn-leia-mais">Avilar Artigo</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mercury. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
